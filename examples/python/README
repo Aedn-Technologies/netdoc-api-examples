@@ -1,1 +1,53 @@
+\# Python examples
+
+
+
+Standard library only — no `pip install` needed.
+
+
+
+\## Configuration
+
+
+
+Set your bearer token as an environment variable:
+
+
+
+```bash
+
+export NETDOC\_TOKEN="your-bearer-token-here"
+
+```
+
+
+
+Or on PowerShell:
+
+
+
+```powershell
+
+$env:NETDOC\_TOKEN = "your-bearer-token-here"
+
+```
+
+
+
+Or edit the `TOKEN` constant at the top of each script.
+
+
+
+\## Scripts
+
+
+
+\- `list\_devices.py` — fetch and print all devices
+
+\- `export\_inventory.py` — export the device list as CSV
+
+
+
+Run with: `python list\_devices.py`
+
 
