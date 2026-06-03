@@ -1,7 +1,7 @@
 # NetDoc Pro REST API — Testing Guide
-
+<p align="center">
 <img width="280" height="566" alt="REST API Activated" src="https://github.com/user-attachments/assets/b9adaefa-d990-4730-a306-922dec418847" />
-
+</p>
 ## Prerequisites
 
 1. **Business tier licence** activated
