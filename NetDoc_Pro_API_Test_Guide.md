@@ -1,7 +1,7 @@
 # NetDoc Pro REST API — Testing Guide
 <p align="center">
 <img width="280" height="566" alt="REST API Activated" src="https://github.com/user-attachments/assets/b9adaefa-d990-4730-a306-922dec418847" />
-  <img width="727" height="570" alt="Aedn_Tech_Topology" src="https://github.com/user-attachments/assets/77ec507d-a973-4cdd-bab6-0b18076d5b49" />
+  <img width="727" height="565" alt="Aedn_Tech_Topology" src="https://github.com/user-attachments/assets/77ec507d-a973-4cdd-bab6-0b18076d5b49" />
 </p>
 
 ## Prerequisites
