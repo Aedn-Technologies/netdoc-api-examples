@@ -50,7 +50,14 @@ def build_inventory(devices):
 
         ip = device.get("ip")
         if ip:
-            inventory["_meta"]["hostvars"][hostname] = {"ansible_host": ip}
+            inventory["_meta"]["hostvars"][hostname] = {
+                "ansible_host": ip,
+                "type":         device.get("type", ""),
+                "vlan":         device.get("vlan", ""),
+                "model":        device.get("model", ""),
+                "status":       device.get("status", ""),
+                "diagName":     device.get("diagName", ""),
+            }
 
         dtype = device.get("type", "unknown")
         type_groups.setdefault(dtype, []).append(hostname)
